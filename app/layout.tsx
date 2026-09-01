@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Uulzhan & Maratbek",
-  description: "Шаңырақ көтеру тойына арналған салтанатты ақ дастарханымыздың қадірлі қонағы болуға шақырамыз our special day",
+  title: "Maratbek & Uulzhan",
+  description: " Бактылуу кунго салтанаттуу ак достарконубузга кадырлуу коногу болуга чакырабыз our special day",
   openGraph: {
     title: "Maratbek & Uulzhan",
-    description: "Шаңырақ көтеру тойына арналған салтанатты ақ дастарханымыздың қадірлі қонағы болуға шақырамыз our special day",
+    description: "Ушул  Бактылуу кунго салтанаттуу ак достарконубузга кадырлуу коногу болуга чакырабыз our special day",
     type: "website",
   },
 };
