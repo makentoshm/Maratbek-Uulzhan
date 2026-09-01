@@ -8,12 +8,13 @@ export default function EventDetails() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
-  const venue = process.env.NEXT_PUBLIC_WEDDING_VENUE || 'Dariya банкет залы';
-  const city = process.env.NEXT_PUBLIC_WEDDING_CITY || 'Қызылорда қаласы';
-  const date = '6 наурыз 2026';
+  const venue = process.env.NEXT_PUBLIC_WEDDING_VENUE || 'Ачык асман залы';
+  const city = process.env.NEXT_PUBLIC_WEDDING_CITY || 'Бишкек Шаары';
+  const date = '10 октябрь 2026 ';
 
   // Example Google Maps link
-  const mapsLink = `https://go.2gis.com/Cv0gu`;
+  const mapsLink = `Цветочная улица, 8
+https://2gis.kg/bishkek/geo/15763234351151511/74.672100,43.030684`;
 
   return (
     <section id="event-details" className="py-24 px-4 bg-cream-50">
@@ -70,10 +71,10 @@ export default function EventDetails() {
             className="mb-12"
           >
             <p className="text-sage-600 font-sans text-sm uppercase tracking-widest mb-2">
-              Той иелері
+              Той Ээси
             </p>
             <p className="text-sage-800 font-display text-3xl md:text-5xl mb-3">
-              Бек & Жанар
+              Михтож
             </p>
           </motion.div>
 
