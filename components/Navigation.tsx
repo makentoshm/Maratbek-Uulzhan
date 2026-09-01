@@ -22,9 +22,9 @@ export default function Navigation() {
   };
 
   const navItems = [
-    { label: 'Басты', href: '#hero' },
-    { label: 'Той күні', href: '#wedding-day' },
-    { label: 'Мәліметтер', href: '#event-details' },
+    { label: 'Башы', href: '#hero' },
+    { label: 'Той күнү', href: '#wedding-day' },
+    { label: 'Малыматтар', href: '#event-details' },
     { label: 'Қатысуды растау', href: '#rsvp' },
   ];
 
@@ -41,7 +41,7 @@ export default function Navigation() {
           {/* Logo/Names */}
           <a href="#hero" className="flex items-center space-x-2">
             <span className="font-display text-2xl text-sage-800">
-              Dias & Aidana
+              Maratbek & Uulzhan
             </span>
           </a>
 
