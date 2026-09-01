@@ -8,8 +8,8 @@ import Envelope from '@/components/Envelope';
 import Navigation from '@/components/Navigation';
 
 export default function Home() {
-  const brideName = 'Maratbek';
-  const groomName = 'Uulzhan';
+  const brideName = 'Uulzhan';
+  const groomName = 'Maratbek';
   const weddingDate = '2026-10-10T18:00:00';
   const city = 'Bishkek';
   const venue = 'Jerge Tal';
