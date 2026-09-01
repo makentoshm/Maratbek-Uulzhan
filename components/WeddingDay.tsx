@@ -9,7 +9,7 @@ const schedule = [
   {
     time: '16:30',
     title: 'Қонақтарды қарсы алу',
-    description: 'Барлық қонақтарды Dariya ресторанына шақырамыз.',
+    description: 'Конокторду ачык асман кафесиге чакырабыз.',
     image: 'https://images.unsplash.com/photo-1529636798458-92182e662485?w=800&q=80',
     side: 'left',
   },
