@@ -13,8 +13,7 @@ export default function EventDetails() {
   const date = '10 октябрь 2026 ';
 
   // Example Google Maps link
-  const mapsLink = `Цветочная улица, 8
-https://2gis.kg/bishkek/geo/15763234351151511/74.672100,43.030684`;
+  const mapsLink = `https://2gis.kg/bishkek/geo/15763234351151511/74.672100,43.030684`;
 
   return (
     <section id="event-details" className="py-24 px-4 bg-cream-50">
