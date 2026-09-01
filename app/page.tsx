@@ -8,11 +8,11 @@ import Envelope from '@/components/Envelope';
 import Navigation from '@/components/Navigation';
 
 export default function Home() {
-  const brideName = 'Aidana';
-  const groomName = 'Dias';
-  const weddingDate = '2026-06-06T18:00:00';
-  const city = 'Қызылорда қаласы';
-  const venue = 'Dariya ресторан';
+  const brideName = 'Maratbek';
+  const groomName = 'Uulzhan';
+  const weddingDate = '2026-10-10T18:00:00';
+  const city = 'Bishkek';
+  const venue = 'Jerge Tal';
 
   return (
     <Envelope brideName={brideName} groomName={groomName}>
@@ -47,14 +47,14 @@ export default function Home() {
       <footer className="bg-sage-800 py-16 text-center">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-cream-200 text-lg mb-4 font-serif">
-            Сіздерді тойымызда көруге асығамыз!
+            Келгиле вача тойго!
           </p>
           <p className="text-cream-50 font-display text-4xl md:text-5xl mb-8">
             {groomName} & {brideName}
           </p>
           <div className="w-16 h-px bg-sage-500 mx-auto mb-6" />
           <p className="text-sage-400 text-sm font-sans">
-            Махаббатпен жасалған • 2026
+            Суйуу менен жасалган • 2026
           </p>
         </div>
       </footer>
